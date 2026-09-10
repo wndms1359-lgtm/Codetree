@@ -2,7 +2,7 @@ n = int(input())
 a = list(map(int, input().split()))
 
 # Please write your code here.
-min = 999999999999999999999999999999999999999999
+min = a[0]
 
 for i in a:
     if i < min:
