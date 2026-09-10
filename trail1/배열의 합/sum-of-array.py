@@ -1,6 +1,4 @@
-n = 4
-for _ in range(n):
-    arr = list(map(int, input().split()))
-    sum_val = sum(arr)
-    print(sum_val)
+for _ in range(4):
+    row = list(map(int, input().split()))
+    print(sum(row))
 
