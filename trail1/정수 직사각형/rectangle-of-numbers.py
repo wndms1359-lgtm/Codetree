@@ -1,13 +1,10 @@
-TC = list(map(int, input().split()))
-N = TC[0] #세로변의 길이
-M = TC[1] #가로변의 길이
+N, M = map(int, input().split())
 
-c= 1
+cnt = 1
+
+
 for i in range(N):
     for j in range(M):
-        print(c, end = " " )
-        c+=1
+        print(cnt, end= ' ')
+        cnt += 1
     print()
-
-
-        
