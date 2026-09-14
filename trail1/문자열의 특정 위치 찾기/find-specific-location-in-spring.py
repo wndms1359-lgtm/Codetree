@@ -1,11 +1,9 @@
-N = input().split()
+N, tc = input().split()
 
-arr = N[0]
-tc = N[1]
 
 cnt = -1
-for i in range(len(arr)):
-    if arr[i] == tc:
+for i in range(len(N)):
+    if N[i] == tc:
         cnt += 1
         print(i)
         break
