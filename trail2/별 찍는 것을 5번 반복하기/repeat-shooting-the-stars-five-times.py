@@ -1,7 +1,5 @@
-def make_star(str,cnt):
-    for i in range(cnt):
-        print(str)
+def print_10_stars():
+    print('*'*10)
 
-str='*'*10
-cnt= 5
-make_star(str,cnt)
+for _ in range(5):
+    print_10_stars()
