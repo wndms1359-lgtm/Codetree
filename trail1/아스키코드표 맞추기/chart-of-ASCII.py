@@ -3,5 +3,5 @@
 
 TC = list(map(int, input().split()))
 
-for i in range(len(TC)):
-    print(chr(TC[i]), end=' ')
+for i in TC:
+    print(chr(i), end=' ')
